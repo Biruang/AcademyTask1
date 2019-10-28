@@ -37,6 +37,9 @@ h5{
 /*Header*/
 .header{
     background-color: #f5fcfd;
+    position: relative;
+    background-image: url("./static/img/Header-background.svg");
+
 }
 
 /*Header-Nav*/
@@ -150,4 +153,24 @@ h5{
     align-items: center;
     font-weight: 700;
     border-width: 2px;
+}
+
+/*Header-Device*/
+.header-device{
+    margin-top: 30px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 584px;
+    background-image: url("./static/img/Device.png");
+}
+
+/*Header-Scroll*/
+.header-scroll{
+    height: 70px;
+    width: 70px;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    position: absolute;
+    right: calc(50% - 35px);
+    bottom: -35px;
 }

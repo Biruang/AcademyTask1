@@ -117,3 +117,37 @@ h5{
         max-width: none;
     }
 }
+
+/*Header-Promo*/
+.header-promo{
+    text-align: center;
+    max-width: 612px;
+    margin: 106px auto 0 auto;
+}
+
+.header-promo h1{
+    margin-bottom: 0;
+}
+
+.header-promo p{
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+/*Header-Promo-Buttons*/
+.header-promo-buttons{
+    margin-top: 37px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-promo-buttons a{
+    height: 50px;
+    width: 165px;
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-width: 2px;
+}

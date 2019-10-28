@@ -1,0 +1,119 @@
+/*General*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #929292;
+}
+
+h1,h2,h3,h4,h5{
+    line-height: 24px;
+    color: #000000;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Header*/
+.header{
+    background-color: #f5fcfd;
+}
+
+/*Header-Nav*/
+.header-nav{
+    max-width: 1640px;
+    padding: 0;
+    margin: auto;
+}
+
+.header-nav .navbar-brand{
+    padding: 0;
+    height: 100px;
+    width: 179px;
+    background-color: #0f7bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 22px 22px;
+}
+
+.header-nav h1{
+    margin-bottom: 0;
+    color: #ffffff;
+
+}
+
+.header-nav ul{
+    min-width: 353px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav li{
+    padding: 0;
+}
+
+.header-nav-link{
+    padding: 0;
+    color: #929292;
+    font-weight: 500;
+}
+
+.header-nav-link:hover{
+    color: #0f7bff;
+    text-decoration: none;
+}
+
+/*Header-Nav-Button*/
+.header-nav-controls{
+    max-width: 571px;
+}
+
+/*Header-Nav-Button*/
+.header-nav-button{
+    height: 50px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0063dd;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-nav-button:hover{
+    color: #ffffff;
+}
+
+@media all and (max-width: 960px){
+    .header-nav ul {
+        min-width: 0;
+    }
+
+    .header-nav-controls{
+        max-width: none;
+    }
+}

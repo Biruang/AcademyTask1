@@ -214,3 +214,49 @@ h5{
 }
 
 /*Main-About*/
+.main-about{
+
+}
+
+.main-about .row{
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+.main-about h2{
+    margin-top: 225px;
+    margin-bottom: 0;
+}
+
+.main-about p{
+    margin-top: 33px;
+    margin-bottom: 0;
+    max-width: 544px;
+}
+
+.main-about a{
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+    margin-top: 38px;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/*Main-About-Img(n)*/
+.main-about-img1,
+.main-about-img2{
+    width: 100%;
+    max-width: 399px;
+}
+
+.main-about-img1{
+    margin-top: 130px;
+}
+
+.main-about-img2{
+    margin-top: 130px;
+}

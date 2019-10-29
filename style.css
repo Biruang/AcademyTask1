@@ -510,4 +510,31 @@ h5{
     padding-top: 130px;
     padding-bottom: 130px;
     background-color: #f5fcfd;
+    margin-top: 127px;
+}
+
+.main-trial-content{
+    max-width: 752px;
+}
+
+.main-trial-content h2{
+    margin-bottom: 0;
+}
+
+.main-trial-content p{
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.main-trial-content a{
+    height: 76px;
+    width: 263px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.main-trial-content img{
+    margin-left: 10px;
 }

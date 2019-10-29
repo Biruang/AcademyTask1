@@ -228,6 +228,7 @@ h5{
 .main-about h2{
     margin-top: 225px;
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 .main-about p{
@@ -262,6 +263,10 @@ h5{
 }
 
 /*Main-HowTo-Header*/
+.main-howto-header h2{
+    font-weight: 500;
+}
+
 .main-howto-header p{
     margin-top: 39px;
     margin-bottom: 0;
@@ -313,6 +318,7 @@ h5{
 .main-pricing-head h2{
     font-size: 32px;
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 .main-pricing-head p{
@@ -333,6 +339,7 @@ h5{
     font-weight: 700;
     max-width: 165px;
     height: 50px;
+    border-width: 2px;
 }
 
 .main-pricing-head a:first-child{
@@ -421,6 +428,7 @@ h5{
 
 .main-news-header h2{
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 .main-news-header p{
@@ -461,6 +469,7 @@ h5{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 500;
 }
 
 .main-news-important-continue img{
@@ -519,6 +528,7 @@ h5{
 
 .main-trial-content h2{
     margin-bottom: 0;
+    font-weight: 500;
 }
 
 .main-trial-content p{
@@ -537,4 +547,63 @@ h5{
 
 .main-trial-content img{
     margin-left: 10px;
+}
+
+/*Footer*/
+.footer{
+    background-color: #0f7bff;
+}
+
+/*Footer-Subscribe*/
+.footer-subscribe{
+    padding-top: 130px;
+
+}
+
+.footer-subscribe .input-group{
+    margin-top: 33px;
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-subscribe h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-subscribe input{
+    height: 60px;
+    border-radius: 30px 0 0 30px;
+    border-width: 2px;
+    background-color: transparent;
+    border-color: #ffffff;
+    padding-left: 33px;
+    padding-right: 0;
+}
+
+.footer-subscribe input::placeholder{
+    color: #ffffff;
+}
+
+.footer-subscribe button{
+    height: 60px;
+    width: 165px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0f7bff;
+}
+
+@media all and (max-width: 430px){
+    .footer-subscribe button{
+        width: auto;
+    }
+}
+
+/*Footer-End*/
+.footer-end{
+    margin-top: 130px;
+    border-top: 1px solid #ffffff;
 }

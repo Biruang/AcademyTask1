@@ -246,17 +246,159 @@ h5{
     font-weight: 500;
 }
 
-/*Main-About-Img(n)*/
-.main-about-img1,
-.main-about-img2{
+/*Main-About-Img*/
+.main-about-img{
     width: 100%;
     max-width: 399px;
-}
-
-.main-about-img1{
     margin-top: 130px;
 }
 
-.main-about-img2{
+/*Main-HowTo*/
+.main-howto{
     margin-top: 130px;
+    padding-top: 151px;
+    padding-bottom: 127px;
+    background-color: #f5fcfd;
+}
+
+/*Main-HowTo-Header*/
+.main-howto-header p{
+    margin-top: 39px;
+    margin-bottom: 0;
+    max-width: 731px;
+}
+
+/*Main-HowTo-Cards*/
+.main-howto-cards{
+    margin-top: 47px;
+}
+
+.main-howto-cards ul{
+    list-style: none;
+}
+
+.main-howto-cards li:first-child:after{
+    content: "";
+    border: 1px dotted #0f7bff;
+    height: 1px;
+    position: absolute;
+    top: 50px;
+    left: Calc(11% + 50px);
+    width: 70%;
+    z-index: 0;
+}
+
+.main-howto-cards h5{
+    margin-top: 31px;
+    margin-bottom: 0;
+}
+
+.main-howto-cards p{
+    margin-top: 29px;
+    margin-bottom: 0;
+    max-width: 296px;
+}
+
+
+/*Main-Pricing*/
+.main-pricing{
+
+}
+
+/*Main-Pricing-Head*/
+.main-pricing-head{
+    margin-top: 165px;
+}
+
+.main-pricing-head h2{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.main-pricing-head p{
+    margin-top: 33px;
+    margin-bottom: 0;
+}
+
+.main-pricing-head div{
+    margin-top: 37px;
+    max-width: 330px;
+    width: 100%;
+}
+
+.main-pricing-head a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    max-width: 165px;
+    height: 50px;
+}
+
+.main-pricing-head a:first-child{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.main-pricing-head a:last-child{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+/*Main-Pricing-Card*/
+.main-pricing-card{
+    box-shadow: 0 0 68px rgba(165, 165, 165, 0.25);
+    border-radius: 5px;
+    max-width: 360px;
+    padding: 40px 0;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.main-pricing-card h5{
+    margin-top: 29px;
+    margin-bottom: 0;
+}
+
+.main-pricing-card hr{
+    margin-top: 30px;
+    margin-bottom: 9px;
+    max-width: 165px;
+    border-color: #e0e0e0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-pricing-card ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.main-pricing-card li{
+    margin-top: 21px;
+}
+
+.main-pricing-card span{
+    font-size: 32px;
+    color: #0f7bff;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 27px;
+}
+
+.main-pricing-card span:first-letter{
+    font-size: 16px;
+}
+
+.main-pricing-card a{
+    width: 165px;
+    height: 50px;
+    margin-top: 38px;
+    font-weight: 700;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }

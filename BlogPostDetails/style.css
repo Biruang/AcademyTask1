@@ -43,6 +43,10 @@ h5{
     background-color: #f5fcfd;
 }
 
+.header .container-fluid{ /*kill me*/
+    border-bottom: 1px solid #dcdcdc;
+}
+
 /*Header-Nav*/
 .header-nav{
     max-width: 1620px;

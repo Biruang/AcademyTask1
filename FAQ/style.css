@@ -236,6 +236,10 @@ h5{
     padding-top: 130px;
 }
 
+.header .container-fluid{ /*kill me*/
+    border-bottom: 1px solid #dcdcdc;
+}
+
 .footer-links-text h1{
     color: #0f7bff;
     margin-bottom: 0;

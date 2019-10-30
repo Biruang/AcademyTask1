@@ -557,7 +557,6 @@ h5{
 /*Footer-Subscribe*/
 .footer-subscribe{
     padding-top: 130px;
-
 }
 
 .footer-subscribe .input-group{
@@ -606,4 +605,82 @@ h5{
 .footer-end{
     margin-top: 130px;
     border-top: 1px solid #ffffff;
+    position: relative;
+}
+
+.footer-end .container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 100px;
+}
+
+.footer-end .row{
+    min-height: 70px;
+}
+
+.footer-end p{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+/*Footer-End-Nav*/
+.footer-end-nav{
+    list-style: none;
+    max-width: 348px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-end-nav li{
+}
+
+.footer-end-nav a{
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+.footer-end-nav a:hover{
+    color: #ffffff;
+}
+
+/*Footer-End-Links*/
+.footer-end-links{
+    width: 78px;
+    list-style: none;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.footer-end-links i{
+    color: #d8d8d8;
+}
+
+.footer-end-links i:hover{
+    color: #ffffff;
+}
+
+/*Footer-Button*/
+.footer-button{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer-button div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1648px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+.footer-button button{
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
 }

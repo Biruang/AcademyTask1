@@ -43,11 +43,81 @@ h5{
     background-color: #f5fcfd;
 }
 
-.header-separator{
-    border-bottom: 1px solid #dcdcdc;
+/*Header-Nav*/
+.header-nav{
+    max-width: 1620px;
+    padding: 0;
+    margin: auto;
 }
 
-/*Nav*/
+.header-nav .navbar-brand{
+    padding: 0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav h1{
+    margin-bottom: 0;
+    color: #0f7bff;
+
+}
+
+.header-nav ul{
+    min-width: 353px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav li{
+    padding: 0;
+}
+
+.header-nav-link{
+    padding: 0;
+    color: #929292;
+    font-weight: 500;
+}
+
+.header-nav-link:hover{
+    color: #0f7bff;
+    text-decoration: none;
+}
+
+/*Header-Nav-Button*/
+.header-nav-controls{
+    max-width: 571px;
+}
+
+/*Header-Nav-Button*/
+.header-nav-button{
+    height: 50px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f7bff;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-nav-button:hover{
+    color: #ffffff;
+}
+
+@media all and (max-width: 960px){
+    .header-nav ul {
+        min-width: 0;
+    }
+
+    .header-nav-controls{
+        max-width: none;
+    }
+}
 
 /*Info*/
 
@@ -102,7 +172,6 @@ h5{
     max-width: 472px;
     width: 100%;
 }
-
 /*Main*/
 
 .main{
@@ -470,4 +539,77 @@ h5{
 
 .footer-links-list a.active{
     color: #0f7bff;
+}
+
+/*Footer-End*/
+.footer-end{
+    margin-top: 130px;
+    border-top: 1px solid #d8d8d8;
+    position: relative;
+}
+
+.footer-end .container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 100px;
+}
+
+.footer-end .row{
+    min-height: 70px;
+}
+
+.footer-end p{
+    color: #929292;
+    margin-bottom: 0;
+}
+
+/*Footer-End-Nav*/
+.footer-end-nav{
+    list-style: none;
+    max-width: 348px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+@media all and (max-width: 1300px){
+    .footer-end-nav{
+        margin-right: auto;
+    }
+}
+
+.footer-end-nav li{
+}
+
+.footer-end-nav a{
+    color: #929292;
+    text-decoration: none;
+}
+
+.footer-end-nav a:hover{
+    color: #0f7bff;
+}
+
+/*Footer-Button*/
+.footer-button{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.footer-button div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1648px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+.footer-button button{
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
 }

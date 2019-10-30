@@ -130,6 +130,7 @@ h5{
 
 .header-promo h1{
     margin-bottom: 0;
+    line-height: 36px;
 }
 
 .header-promo p{
@@ -265,6 +266,7 @@ h5{
 /*Main-HowTo-Header*/
 .main-howto-header h2{
     font-weight: 500;
+    line-height: 36px;
 }
 
 .main-howto-header p{
@@ -312,13 +314,20 @@ h5{
 
 /*Main-Pricing-Head*/
 .main-pricing-head{
-    margin-top: 165px;
+    margin-top: 295px;
+}
+
+@media all and (max-width: 991px){
+    .main-pricing-head{
+        margin-top: 165px;
+    }
 }
 
 .main-pricing-head h2{
     font-size: 32px;
     margin-bottom: 0;
     font-weight: 500;
+    line-height: 36px;
 }
 
 .main-pricing-head p{
@@ -429,6 +438,7 @@ h5{
 .main-news-header h2{
     margin-bottom: 0;
     font-weight: 500;
+    line-height: 36px;
 }
 
 .main-news-header p{
@@ -452,6 +462,7 @@ h5{
 .main-news-important h4{
     margin-top: 40px;
     margin-bottom: 0;
+    line-height: 36px;
 }
 .main-news-important h4:hover{
     color: #0f7bff;
@@ -529,6 +540,7 @@ h5{
 .main-trial-content h2{
     margin-bottom: 0;
     font-weight: 500;
+    line-height: 36px;
 }
 
 .main-trial-content p{

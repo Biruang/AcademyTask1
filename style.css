@@ -37,9 +37,11 @@ h5{
 /*Header*/
 .header{
     background-color: #f5fcfd;
-    position: relative;
     background-image: url("./static/img/Header-background.svg");
-
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
 }
 
 /*Header-Nav*/
@@ -253,6 +255,95 @@ h5{
     width: 100%;
     max-width: 399px;
     margin-top: 130px;
+    position: relative;
+}
+
+.figure-container1:before{
+    content: "";
+    position: absolute;
+    height: 470px;
+    width: 420px;
+    background-color: #0f7bff;
+    transform: rotate(-40deg);
+    bottom: -10px;
+    left: -100px;
+    border-radius: 30px;
+}
+
+.figure-container2:before{
+    content: "";
+    position: absolute;
+    height: 470px;
+    width: 420px;
+    background-color: #0f7bff;
+    transform: rotate(140deg);
+    bottom: -60px;
+    right: -100px;
+    border-radius: 30px;
+}
+
+@media all and (max-width: 1436px){
+    .figure-container1:before,
+    .figure-container2:before{
+        height: 385px;
+        width: 340px;
+    }
+
+    .figure-container1:before{
+        left: -65px;
+    }
+
+    .figure-container2:before{
+        right: -65px;
+    }
+
+    .main-about-img{
+        max-width: 330px;
+    }
+}
+
+@media all and (max-width: 642px){
+    .figure-container1:before,
+    .figure-container2:before{
+        height: 300px;
+        width: 255px;
+    }
+
+    .figure-container1:before{
+        bottom: -15px;
+        left: -20px;
+    }
+
+    .figure-container2:before{
+        right: -20px;
+        bottom: -15px;
+    }
+
+    .main-about-img{
+        max-width: 280px;
+    }
+}
+
+@media all and (max-width: 478px){
+    .figure-container1:before,
+    .figure-container2:before{
+        height: 235px;
+        width: 190px;
+    }
+
+    .figure-container1:before{
+        bottom: 0;
+        left: 20px;
+    }
+
+    .figure-container2:before{
+        right: 20px;
+        bottom: 0;
+    }
+
+    .main-about-img{
+        max-width: 245px;
+    }
 }
 
 /*Main-HowTo*/
@@ -290,9 +381,22 @@ h5{
     height: 1px;
     position: absolute;
     top: 50px;
-    left: Calc(11% + 50px);
-    width: 70%;
+    left: Calc(50%);
+    width: 200%;
     z-index: 0;
+}
+
+@media all and (max-width: 768px){
+    .main-howto-cards li:first-child:after{
+        content: "";
+        border: 1px dotted #0f7bff;
+        height: 200%;
+        position: absolute;
+        top: 100px;
+        left: 65px;
+        width: 1px;
+        z-index: 0;
+    }
 }
 
 .main-howto-cards h5{
@@ -304,6 +408,11 @@ h5{
     margin-top: 29px;
     margin-bottom: 0;
     max-width: 296px;
+}
+
+.main-howto-cards img{
+    z-index: 1;
+    position: relative;
 }
 
 

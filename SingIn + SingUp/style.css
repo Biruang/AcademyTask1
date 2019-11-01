@@ -153,16 +153,21 @@ h5{
     margin: 0 15px;
 }
 
-.main-buttons button:hover{
-    color: #ffffff;
-}
-
-.main-buttons .facebook{
+.main-buttons-facebook{
     background-color: #3b5999;
 }
 
-.main-buttons .twitter{
+.main-buttons-facebook:hover{
+    color: #ffffff;
+}
+
+.main-buttons-twitter{
     background-color: #55acee;
+    border: none;
+}
+
+.main-buttons-twitter:hover{
+    color: #ffffff;
 }
 
 .main-form{

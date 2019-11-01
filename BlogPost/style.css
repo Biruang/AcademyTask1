@@ -222,21 +222,28 @@ h5{
 }
 
 .main-card-body-stat{
+    max-width: 356px;
+    justify-content: space-between;
     display: flex;
     list-style: none;
     margin-top: 10px;
 }
 
-.main-card-body-stat span{
-    margin-left: 10px;
-}
-
 .main-card-body-stat li:first-child{
-    margin-right: 27px;
+    max-width: 120px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.main-card-body-stat li:last-child{
-    margin-left: 47px;
+.main-card-body-stat li{
+    align-items: center;
+    max-width: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-card-body-stat i{
+    margin-right: 9px;
 }
 
 .main-card-body p{

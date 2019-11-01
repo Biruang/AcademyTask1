@@ -208,6 +208,32 @@ h5{
     line-height: 36px;
 }
 
+/*Stat*/
+.main-blog-text-stat{
+    max-width: 356px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.main-blog-text-stat li:first-child{
+    max-width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-blog-text-stat li{
+    align-items: center;
+    max-width: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-blog-text-stat i{
+    margin-right: 9px;
+}
+
 .main-blog-text p{
     margin-top: 40px;
     margin-bottom: 0;
@@ -255,7 +281,9 @@ h5{
 .main-blog-buttons-links button{
     font-size: 14px;
     height: 30px;
+    text-align: center;
     min-width: 87px;
+    line-height: 1.2;
 }
 
 .main-blog-buttons-links a{
@@ -301,6 +329,8 @@ h5{
 
 .main-blog-buttons-form input{
     margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     height: 60px;
     max-width: 360px;
 }
@@ -312,6 +342,7 @@ h5{
 }
 
 .main-blog-buttons-form textarea{
+    padding: 25px 30px;
     height: 160px;
     margin-top: 30px;
 }

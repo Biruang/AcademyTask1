@@ -564,6 +564,7 @@ h5{
     font-weight: 500;
     display: inline-block;
     margin-top: 27px;
+    min-width: 100px; /*Без этого в firefox текст плывет*/
 }
 
 .main-pricing-card span:first-letter{

@@ -183,6 +183,12 @@ h5{
     margin-top: 130px;
 }
 
+@media all and (max-width: 642px){
+    .main{
+        margin-top: 70px;
+    }
+}
+
 /*Card*/
 
 .main-card{
@@ -461,6 +467,13 @@ h5{
     padding-top: 130px;
 }
 
+@media all and (max-width: 642px){
+    .footer{
+        margin-top: 70px;
+        padding-top: 70px;
+    }
+}
+
 .footer-links-text h1{
     color: #0f7bff;
     margin-bottom: 0;
@@ -532,6 +545,12 @@ h5{
     margin-top: 130px;
     border-top: 1px solid #d8d8d8;
     position: relative;
+}
+
+@media all and (max-width: 642px){
+    .footer-end{
+        margin-top: 70px;
+    }
 }
 
 .footer-end .container{

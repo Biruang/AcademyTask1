@@ -126,6 +126,12 @@ h5{
     font-weight: 500;
 }
 
+@media all and (max-width: 642px){
+    .main h2{
+        margin-top: 70px;
+    }
+}
+
 .main p:first-of-type{
     max-width: 750px;
     text-align: center;
@@ -229,6 +235,13 @@ h5{
     padding-top: 130px;
 }
 
+@media all and (max-width: 642px){
+    .footer{
+        margin-top: 70px;
+        padding-top: 70px;
+    }
+}
+
 .footer-links-text h1{
     color: #0f7bff;
     margin-bottom: 0;
@@ -300,6 +313,12 @@ h5{
     margin-top: 130px;
     border-top: 1px solid #d8d8d8;
     position: relative;
+}
+
+@media all and (max-width: 642px){
+    .footer-end{
+        margin-top: 60px;
+    }
 }
 
 .footer-end .container{

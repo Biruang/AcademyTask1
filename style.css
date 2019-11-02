@@ -255,7 +255,7 @@ h5{
 
 @media all and (max-width: 642px){
     .main-about h2{
-        margin-top: 100px;
+        margin-top: 70px;
     }
 }
 
@@ -393,7 +393,7 @@ h5{
     .main-howto{
         margin-top: 70px;
         padding-top: 70px;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
     }
 }
 
@@ -531,7 +531,7 @@ h5{
 
 @media all and (max-width: 642px){
     .main-pricing-card{
-        margin-top: 90px;
+        margin-top: 70px;
     }
 }
 

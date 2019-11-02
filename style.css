@@ -167,6 +167,18 @@ h5{
     background-image: url("./static/img/Device.png");
 }
 
+@media all and (max-width: 490px){
+    .header-device{
+        margin-top: 100px;
+    }
+}
+
+@media all and (max-width: 365px){
+    .header-device{
+        margin-top: 120px;
+    }
+}
+
 /*Header-Scroll*/
 .header-scroll{
     height: 70px;
@@ -188,6 +200,13 @@ h5{
     background-color: #f5fcfd;
     padding-top: 165px;
     padding-bottom: 130px;
+}
+
+@media all and (max-width: 642px){
+    .main-cards{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
 }
 
 .main-cards .row{
@@ -234,6 +253,12 @@ h5{
     font-weight: 500;
 }
 
+@media all and (max-width: 642px){
+    .main-about h2{
+        margin-top: 100px;
+    }
+}
+
 .main-about p{
     margin-top: 33px;
     margin-bottom: 0;
@@ -256,6 +281,16 @@ h5{
     max-width: 399px;
     margin-top: 130px;
     position: relative;
+}
+
+@media all and (max-width: 642px){
+    .main-about-img{
+        margin-top: 90px;
+    }
+
+    .main-about-img:first-child{
+        margin-top: 70px;
+    }
 }
 
 .figure-container1:before{
@@ -354,6 +389,14 @@ h5{
     background-color: #f5fcfd;
 }
 
+@media all and (max-width: 642px){
+    .main-howto{
+        margin-top: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
 /*Main-HowTo-Header*/
 .main-howto-header h2{
     font-weight: 500;
@@ -386,7 +429,7 @@ h5{
     z-index: 0;
 }
 
-@media all and (max-width: 768px){
+@media all and (max-width: 767px){
     .main-howto-cards li:first-child:after{
         content: "";
         border: 1px dotted #0f7bff;
@@ -426,7 +469,13 @@ h5{
     margin-top: 295px;
 }
 
-@media all and (max-width: 991px){
+@media all and (max-width: 642px){
+    .main-pricing-head{
+        margin-top: 70px;
+    }
+}
+
+@media all and (max-width: 991px) and (min-width: 643px){
     .main-pricing-head{
         margin-top: 165px;
     }
@@ -478,6 +527,12 @@ h5{
     padding: 40px 0;
     margin-top: 130px;
     text-align: center;
+}
+
+@media all and (max-width: 642px){
+    .main-pricing-card{
+        margin-top: 90px;
+    }
 }
 
 .main-pricing-card h5{
@@ -535,7 +590,14 @@ h5{
     margin-top: 130px;
 }
 
-@media all and (max-width: 991px){
+@media all and (max-width: 642px){
+    .main-slider{
+        margin-top: 70px;
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (min-width: 643px) and (max-width: 991px){
     .main-slider{
         padding-bottom: 130px;
     }
@@ -546,6 +608,12 @@ h5{
     margin-top: 130px;
     margin-bottom: 0;
     line-height: 36px;
+}
+
+@media all and (max-width: 642px) {
+    .main-slider h2{
+        margin-top: 70px;
+    }
 }
 
 .main-slider .container{
@@ -640,6 +708,12 @@ h5{
     max-width: 731px;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media all and (max-width: 642px){
+    .main-news-header{
+        margin-top: 70px;
+    }
 }
 
 .main-news-header h2{
@@ -740,6 +814,14 @@ h5{
     margin-top: 127px;
 }
 
+@media all and (max-width: 642px){
+    .main-trial{
+        margin-top: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+}
+
 .main-trial-content{
     max-width: 752px;
 }
@@ -778,6 +860,12 @@ h5{
     padding-top: 130px;
 }
 
+@media all and (max-width: 642px){
+    .footer-subscribe{
+        padding-top: 90px;
+    }
+}
+
 .footer-subscribe .input-group{
     margin-top: 33px;
     max-width: 555px;
@@ -798,6 +886,7 @@ h5{
     border-color: #ffffff;
     padding-left: 33px;
     padding-right: 0;
+    color: #ffffff;
 }
 
 .footer-subscribe input::placeholder{
@@ -825,6 +914,12 @@ h5{
     margin-top: 130px;
     border-top: 1px solid #ffffff;
     position: relative;
+}
+
+@media all and (max-width: 642px){
+    .footer-end{
+        margin-top: 90px;
+    }
 }
 
 .footer-end .container{
